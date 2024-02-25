@@ -88,31 +88,15 @@ body{
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
     color: rgb(181,12,17);
-    opacity: 0;
     transform: translateY(-40px);
-    transition: 2s;
 }
 .warpper:hover .title h2{
-    opacity: 1;
     transform: translateY(0px);
 }
 .content p{
   padding: 0px 40px;
   font-size: 18.5px;
   font-family: 'Dancing Script', cursive;
-  opacity: 0;
-  transition: all 1s;
-}
-.warpper:hover .content p{
-    animation: text1 2s forwards ease-in-out 1s;
-}
-@keyframes text1{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 .loader-wrapper{
     position: fixed;
