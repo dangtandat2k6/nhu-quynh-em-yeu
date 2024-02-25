@@ -21,15 +21,15 @@ body{
     align-items: center;
 }
 .box{
-    position: relative;
-    width: 600px;
-    height: 350px;
-    background: rgba(253,233,234,0.9);
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 378px;
+  height: 376px;
+  background: rgba(253,233,234,0.9);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mail{
     width: 550px;
@@ -97,11 +97,11 @@ body{
     transform: translateY(0px);
 }
 .content p{
-    padding: 0px 45px;
-    font-size: 18px;
-    font-family: 'Dancing Script', cursive;
-    opacity: 0;
-    transition: all 1s;
+  padding: 0px 40px;
+  font-size: 18.5px;
+  font-family: 'Dancing Script', cursive;
+  opacity: 0;
+  transition: all 1s;
 }
 .warpper:hover .content p{
     animation: text1 2s forwards ease-in-out 1s;
